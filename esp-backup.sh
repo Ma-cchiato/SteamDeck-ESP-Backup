@@ -138,7 +138,7 @@ repair_boot_order() {
 
         # SteamOS 부트 항목 추가
         if [ -z "$steamos_entry" ]; then
-            echo $SUDO_PASS | sudo -S efibootmgr -c -L "SteamOS" -l "\efi\steamos\steamcl.efi" -d /dev/nvme0n1p1 -b0001
+            echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "SteamOS" --loader "\efi\steamos\steamcl.efi"
         fi
     fi
     fi
