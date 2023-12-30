@@ -118,13 +118,13 @@ repair_boot_order() {
         # SteamOS 부트 항목 추가
         if [ -z "$steamos_entry" ]; then
             #echo $SUDO_PASS | sudo -S efibootmgr -c -L "SteamOS" -l "\efi\steamos\steamcl.efi" -d /dev/nvme0n1p1
-            steamos_entry_number=$(echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "SteamOS" --loader "\efi\steamos\steamcl.efi" | grep 'BootOrder' | awk '{print $2}')
+            steamos_entry_number=$(echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "SteamOS" --loader "\EFI\steamos\steamcl.efi" | grep 'BootOrder' | awk '{print $2}')
         fi
 
         # Windows 부트 항목 추가
         if [ -z "$windows_entry" ]; then
             #echo $SUDO_PASS | sudo -S efibootmgr -c -L "Windows Boot Manager" -l "\efi\Microsoft\Boot\bootmgfw.efi" -d /dev/nvme0n1p1
-            windows_entry_number=$(echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "Windows Boot Manager" --loader "\efi\Microsoft\Boot\bootmgfw.efi" | grep 'BootOrder' | awk '{print $2}')
+            windows_entry_number=$(echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "Windows Boot Manager" --loader "\EFI\Microsoft\Boot\bootmgfw.efi" | grep 'BootOrder' | awk '{print $2}')
         fi
 
         # 부트 순서 변경
@@ -138,7 +138,7 @@ repair_boot_order() {
 
         # SteamOS 부트 항목 추가
         if [ -z "$steamos_entry" ]; then
-            echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "SteamOS" --loader "\efi\steamos\steamcl.efi"
+            echo $SUDO_PASS | sudo -S efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "SteamOS" --loader "\EFI\steamos\steamcl.efi"
         fi
     fi
     fi
