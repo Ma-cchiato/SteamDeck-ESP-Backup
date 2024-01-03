@@ -16,7 +16,7 @@ REPAIR_DIR="/repair"
 # 리커버리 모드일 경우
 if [ $RECOVERY_MODE -eq 0 ]; then
     sudo steamos-readonly disable
-    mkdir -p "$REPAIR_DIR"
+    sudo mkdir -p "$REPAIR_DIR"
     sudo mount /dev/nvme0n1p1 "$REPAIR_DIR"
     ESP_MOUNT="/repair"
 else
