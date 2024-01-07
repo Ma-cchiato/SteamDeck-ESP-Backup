@@ -20,30 +20,30 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
 
 1. **Check recovery mode**: When running the script, a dialog box will appear asking whether it was run in recovery mode. If running in recovery mode, select 'Yes'.
 
-   ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/be3871a8-caf8-4421-9249-27286b85f8f4)
+   ![1](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9b5c9426-96b0-40c4-81e5-5deb24c7c90e)
 
 2. **Enter your sudo password**: If running in normal mode, a dialog box will appear asking you to enter your sudo password. Enter your sudo password and click 'OK'.
 
-   ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/5508db94-7657-4034-a73f-3b7cf4164822)
+   ![2](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/57de381c-5b6c-40c4-becc-839d3dd24e47)
 
 3. **Select task**: Select one of Backup, Restore, and Repair Boot Order and click 'OK'. The next steps will follow depending on the action you selected.
 
-   ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/413e8ed4-7dfd-4b88-b40b-3c8f74faa9ad)
+   ![3](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/cfc752d1-21ca-4a2c-ad86-0bee0eff0be2)
 
 - **Backup (ESP Backup)**
   - When you select Backup, all files in the /esp directory are backed up.
   - If a backup file already exists, you will be prompted to overwrite it. If you select 'Yes', the existing backup file will be deleted and a new backup file will be created.
   - When the backup is complete, you will see a completion notification. The backed up compressed file and compressed file name-hash.txt file are created.
 
-    ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/528c0798-fdbc-4fcf-8bd8-f42a58efe6e1)
-    ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/3746b1bb-f7bf-43a4-b09a-25df58211139)
+    ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9534d789-8b98-4b60-8e4d-e3c302b01e21)
+    ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/05557290-753d-48c3-919d-93f005c151b0)
 
 - **Restore (ESP Restore)**
   - When you select Restore, a dialog box will appear allowing you to select the backup file.
   - Once you select a backup file, the hash value of the file will be verified and the restoration process will begin.
   - When the restore is complete, you will see a completion notification.
 
-    ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/07f5c853-4b55-4cf9-9c88-4cbe37f63dc3)
+    ![6](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/1e03f1e0-37d1-4b10-8ea2-d7ecc6030f84)
 
 - **Repair Boot Order (Boot List Recovery)**
   - If you select Repair Boot List, you will be prompted to dual boot.
@@ -51,8 +51,8 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
   - For a single OS, add only the SteamOS boot entry.
   - When the task is complete, you will see a completion notification.
 
-    ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/cf595afa-c993-441d-ad56-26e001fad52c)
-    ![image](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/70a869c4-c8d0-4d62-8ef7-ddcb829b27d2)
+    ![7](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/191485cc-738c-4af1-802f-ba6c269b4780)
+    ![8](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/79d2b85d-5ff6-47a2-afb6-6e88852f7f9e)
 
 ## License
 
