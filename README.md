@@ -35,8 +35,8 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
   - If a backup file already exists, you will be prompted to overwrite it. If you select 'Yes', the existing backup file will be deleted and a new backup file will be created.
   - When the backup is complete, you will see a completion notification. The compressed backup file and hash file are created.
 
-    ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9534d789-8b98-4b60-8e4d-e3c302b01e21)
-    ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/05557290-753d-48c3-919d-93f005c151b0)
+    ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/f25f5b10-170b-4aa2-9f88-366998032df3)
+    ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/0ca47026-6027-4d9d-922b-f2e617403644)
 
 - **Restore (ESP Restore)**
   - When you select Restore, a dialog box will appear allowing you to select the backup file.
