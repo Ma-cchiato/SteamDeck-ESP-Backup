@@ -7,12 +7,12 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
 ## Caution
 
 - **Disclaimer**: This script is provided 'as is' and we will not be liable for any loss or damage resulting from its use. Users assume all risks associated with using the script, and should use it cautiously considering the possibility of loss of important data or damage to the system.
-- When using the restore function, the backup file and hash.txt file must be located in the same directory.
+- When using the restore function, the backup file and hash file must be located in the same directory.
 - Boot list recovery can only be used during normal booting, not recovery mode.
 
 ## Function
 
-- **ESP Backup**: Backs up the ESP of the current system.
+- **ESP Backup**: Backup the ESP of the current system.
 - **ESP Restore**: Restore backed up ESP files.
 - **Boot List Recovery**: Check SteamOS and Windows boot entries, repair boot list and reset boot order if necessary.
 
@@ -33,7 +33,7 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
 - **Backup (ESP Backup)**
   - When you select Backup, all files in the /esp directory are backed up.
   - If a backup file already exists, you will be prompted to overwrite it. If you select 'Yes', the existing backup file will be deleted and a new backup file will be created.
-  - When the backup is complete, you will see a completion notification. The backed up compressed file and compressed file name-hash.txt file are created.
+  - When the backup is complete, you will see a completion notification. The compressed backup file and hash file are created.
 
     ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9534d789-8b98-4b60-8e4d-e3c302b01e21)
     ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/05557290-753d-48c3-919d-93f005c151b0)
@@ -46,7 +46,7 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
     ![6](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/1e03f1e0-37d1-4b10-8ea2-d7ecc6030f84)
 
 - **Repair Boot Order (Boot List Recovery)**
-  - If you select Repair Boot List, you will be prompted to dual boot.
+  - If you select Repair Boot List, you will be asked if you're dual booting.
   - If dual booting, add SteamOS and Windows boot entries and set their order.
   - For a single OS, add only the SteamOS boot entry.
   - When the task is complete, you will see a completion notification.
