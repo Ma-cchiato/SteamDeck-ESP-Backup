@@ -20,7 +20,7 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
 
 1. **Check recovery mode**: When running the script, a dialog box will appear asking whether it was run in recovery mode. If running in recovery mode, select 'Yes'.
 
-   ![1](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9b5c9426-96b0-40c4-81e5-5deb24c7c90e)
+   ![1](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/13984cc6-f9fc-4d50-b607-c68becbee2c3)
 
 2. **Enter your sudo password**: If running in normal mode, a dialog box will appear asking you to enter your sudo password. Enter your sudo password and click 'OK'.
 
@@ -51,7 +51,7 @@ This script is used to manage the ESP (EFI System Partition) of a Linux system. 
   - For a single OS, add only the SteamOS boot entry.
   - When the task is complete, you will see a completion notification.
 
-    ![7](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/191485cc-738c-4af1-802f-ba6c269b4780)
+    ![7](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/a64b1638-9e28-4158-8eec-121a0808b79f)
     ![8](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/79d2b85d-5ff6-47a2-afb6-6e88852f7f9e)
 
 ## License
