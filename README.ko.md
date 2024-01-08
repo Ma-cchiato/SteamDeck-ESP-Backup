@@ -35,8 +35,8 @@ en [English](README.md)
   - 기존에 백업 파일이 존재하는 경우 덮어쓸지 여부를 묻는 메시지가 표시됩니다. 'Yes'를 선택하면 기존 백업 파일이 삭제되고 새 백업 파일이 생성됩니다.
   - 백업이 완료되면 완료 알림이 표시됩니다. 압축된 백업 파일과 해시 파일이 생성됩니다.
 
-    ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9534d789-8b98-4b60-8e4d-e3c302b01e21)
-    ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/05557290-753d-48c3-919d-93f005c151b0)
+    ![4](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/f25f5b10-170b-4aa2-9f88-366998032df3)
+    ![5](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/0ca47026-6027-4d9d-922b-f2e617403644)
 
 - **Restore (ESP 복원)**
   - 복원을 선택하면, 백업 파일을 선택할 수 있는 대화 상자가 나타납니다.
