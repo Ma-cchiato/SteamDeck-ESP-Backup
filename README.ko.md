@@ -20,7 +20,7 @@ en [English](README.md)
 
 1. **리커버리 모드 확인**: 스크립트 실행 시, 리커버리 모드에서 실행했는지를 묻는 대화 상자가 나타납니다. 리커버리 모드에서 실행했다면 'Yes'를 선택합니다.
 
-   ![1](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/9b5c9426-96b0-40c4-81e5-5deb24c7c90e)
+   ![1](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/13984cc6-f9fc-4d50-b607-c68becbee2c3)
 
 2. **sudo 비밀번호 입력**: 일반 모드에서 실행하는 경우, sudo 비밀번호 입력을 요구하는 대화 상자가 나타납니다. sudo 비밀번호를 입력하고 'OK'를 클릭합니다.
 
@@ -51,7 +51,7 @@ en [English](README.md)
   - 단일 OS인 경우, SteamOS 부트 항목만 추가합니다.
   - 작업이 완료되면 완료 알림이 표시됩니다.
 
-    ![7](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/191485cc-738c-4af1-802f-ba6c269b4780)
+    ![7](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/a64b1638-9e28-4158-8eec-121a0808b79f)
     ![8](https://github.com/Ma-cchiato/SteamDeck-ESP-Backup/assets/122413511/79d2b85d-5ff6-47a2-afb6-6e88852f7f9e)
 
 ## 라이선스
